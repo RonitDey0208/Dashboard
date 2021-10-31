@@ -3,7 +3,7 @@ import "./styles/checkbox.css";
 
 export default function Checkbox() {
     return (
-        <div className="CheckApp">
+        <div className="CheckApp" id="Checkbox">
             <h3>TO DO LIST</h3>
             <div classname="list">
                 <div className="todo">

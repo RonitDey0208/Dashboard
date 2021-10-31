@@ -1,5 +1,7 @@
 import "./styles/dashnav.css"
 import { useState } from "react";
+import { Link } from "react-scroll";
+import Card from "./Card";
 
 export default function DashNav() {
 
@@ -32,22 +34,22 @@ export default function DashNav() {
                 </div>
                 <ul className="nav-list">
                     <li>
-                        <a href="#">
+                        <Link to="Card" smooth={true} duration={500} className="a">
                             <i className='bx bx-user' ></i>
                             <span className="links_name">Doctor Profiles</span>
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">
+                        <Link to="List" smooth={true} duration={500} className="a">
                             <i className='bx bx-book-reader' ></i>
                             <span className="links_name">Charges</span>
-                        </a>
+                        </Link>
                     </li>
                     <li className="menu">
-                        <a href="novels.html">
+                        <Link to="Checkbox" smooth={true} duration={500} className="a">
                             <i className='bx bx-chast' ></i>
                             <span className="links_name">To Do List</span>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>

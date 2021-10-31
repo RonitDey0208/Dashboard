@@ -11,10 +11,8 @@ function App() {
     <div className="App">
       <User/>
       <Card/>
-      <div className="Container">
-        <List/>
-        <Checkbox/>
-      </div>
+      <List/>
+      <Checkbox/>
       <DashNav/>
     </div>
   );
