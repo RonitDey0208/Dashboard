@@ -1,0 +1,17 @@
+.btn1 {
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    border-radius: 5px;
+    padding: 0;
+    background-color: white;
+    border: 0px;
+}
+
+.btn1:hover {
+    background-color: antiquewhite;
+}
+
+.btn1:focus {
+    background-color: white;
+}

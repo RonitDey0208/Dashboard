@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card';
+import List from './components/List';
+import Checkbox from './components/Checkbox';
+import User from './components/User';
+import DashNav from './components/DashNav';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <User/>
+      <Card/>
+      <div className="Container">
+        <List/>
+        <Checkbox/>
+      </div>
+      <DashNav/>
     </div>
   );
 }
