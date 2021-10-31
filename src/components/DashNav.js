@@ -1,7 +1,6 @@
 import "./styles/dashnav.css"
 import { useState } from "react";
 import { Link } from "react-scroll";
-import Card from "./Card";
 
 export default function DashNav() {
 

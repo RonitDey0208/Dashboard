@@ -28,7 +28,6 @@ export default function Card() {
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
                                 </div>
@@ -43,9 +42,9 @@ export default function Card() {
                             <h5 class="card-title">Dr. Steven Strange</h5>
                             <p class="card-text"> Dr. Strange is the youngest and most qualified amongst all the counsellors we have.
                                 With a six year experince in this field he already has one of the most amazing ratings by far.</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1"> Show more details </button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3"> Show more details </button>
 
-                            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
@@ -53,11 +52,10 @@ export default function Card() {
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p></p>
+                                            <p>A mental health counselor provides support to those experiencing mental or emotional distress. They may use a variety of therapeutic techniques to help a person manage anxiety, depression, and other mental health conditions. a mental health counselor has received training to hold individual and group counseling sessions. They can diagnose mental health conditions, but they cannot prescribe medications.</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
                                 </div>
@@ -82,11 +80,10 @@ export default function Card() {
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p>To become qualified, mental health counselors must have a master’s degree in psychology or counseling and have completed several years of clinical work experience. They must also pass the licensing exam in their state.</p>
+                                            <p>A mental health counselor provides support to those experiencing mental or emotional distress. They may use a variety of therapeutic techniques to help a person manage anxiety, depression, and other mental health conditions. a mental health counselor has received training to hold individual and group counseling sessions. They can diagnose mental health conditions, but they cannot prescribe medications.</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
                                 </div>

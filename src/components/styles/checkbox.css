@@ -9,7 +9,7 @@
     border: 1.5px solid black;
     height: fit-content;
     position: relative;
-    left: 5rem;
+    left: 7rem;
     top: 3rem;
     width: 75rem;
   }
@@ -25,6 +25,7 @@
     border: 1px solid gray;
     text-align: left;
     padding: 8px;
+    background-color:palegoldenrod;
   }
   
   .todo:hover {
